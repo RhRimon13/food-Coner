@@ -1,0 +1,78 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    font-weight: 600;
+    font-family: cursive;
+}
+
+#searchingFood {
+    padding: 20px;
+    background-color: rgb(107, 189, 133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foodItems {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.foodItem {
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(184, 243, 239);
+}
+
+.food-img img {
+    width: 95%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#detail-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foodDetailImg img {
+    width: 500px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.foodIngredient {
+    background-color: rgb(255, 221, 170);
+}
+
+#foodIngredientTitle {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ingredient {
+    padding-left: 20px;
+}
